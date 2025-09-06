@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabha Telehealth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-clinic-medical"></i>
+                <span>Nabha Telehealth</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="patient.html">Register (Patient)</a></li>
+                    <li><a href="docreg.html">Register (Doctor)</a></li>
+                    <li><a href="#find-doctor">Find Doctor</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#chat">Chat (AI)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Telemedicine access for rural healthcare</h1>
+            <p>Simple, fast, local healthcare solutions for the Nabha community through telemedicine technology.</p>
+            <a href="#find-doctor" class="btn">Find a Doctor Now</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-plus"></i>
+                    <h3>Patient Registration</h3>
+                    <p>Create your account, fill out medical history, and get started with telehealth services.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Doctor Registration</h3>
+                    <p>Healthcare providers can join our platform to serve rural communities.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Find Doctor</h3>
+                    <p>Search for healthcare professionals based on specialty, availability, and language.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Book Appointments</h3>
+                    <p>Schedule virtual consultations at your convenience.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Consultations</h3>
+                    <p>Secure, high-quality video calls with healthcare professionals.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-prescription"></i>
+                    <h3>E-Prescriptions</h3>
+                    <p>Receive electronic prescriptions sent directly to your pharmacy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chat-section" id="chat">
+        <div class="container">
+            <h2 class="section-title">AI Medical Assistant</h2>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h3><i class="fas fa-robot"></i> Chat with our AI Health Assistant</h3>
+                    <p>Get preliminary medical advice and translation services</p>
+                </div>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="fr">Français (French)</option>
+                        <option value="hi">हिन्दी (Hindi)</option>
+                        <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+                    </select>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        Hello! I'm your AI health assistant. How can I help you today? You can describe your symptoms or ask about health concerns.
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your message here...">
+                    <button id="send-btn"><i class="fas fa-paper-plane"></i> Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Telemedicine for Nabha</h2>
+            <div class="feature-card">
+                <p>Centralized records, remote consults and easy booking for rural communities.</p>
+                <p><strong>Problem statement:</strong> Provide telemedicine access in Nabha — centralized patient data, appointment booking, remote consults, AI assistant for triage/translation.</p>
+                <p class="warning"><i class="fas fa-exclamation-triangle"></i> Prototype — do not publish your API key publicly</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nabha Telehealth. All rights reserved.</p>
+            <p>Telemedicine access for rural healthcare — simple, fast, local</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
